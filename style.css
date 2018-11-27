@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html,
+body {
+    padding: 0 10% 0 10%;
+
+}
+
+.wrapper {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    min-height: 1000px;
+    border-style: solid;
+    border-color: #ffba00;
+    border-width: 2px;
+    padding: 1% 1% 0 1%;
+}
+.content {
+    /*background-color: red;*/
+    float: right;
+    width: 70%;
+    min-height: 700px;
+    /*margin: 1% 1% 0 1%;*/
+}
+
+.sidebar {
+    width: 25%;
+    border-right: solid #ffba00 2px;
+    /*background-color: blue;*/
+    min-height: 300px;
+    margin: 1% 1% 0 1%;
+    float: left;
+
+}
+.header {
+    background-color: aquamarine;
+    height: 250px;
+    border-style: solid;
+    border-color: #ffba00;
+    border-width: 2px;
+}
+
+.main {
+    margin: 10px 10px 0 10px;
+}
+.main img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 0 2% 0 0;
+    /*border: solid #ffba00 2px;*/
+}
+
+.info {
+    width: 400px;
+    /*background-color: aqua;*/
+    float: left;
+    /*border: solid #ffba00 2px;*/
+    height: 80px;
+}
+.main .name {
+    font-size: 1.6em;
+}
+.main .city {
+    font-size: 1.2em;
+}
+.main .want {
+    font-size: 1.2em;
+}
+.main .want span {
+    color: #ffba00;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin: 15px 100px 0 0;
+    border: none;
+    background-color: #ffba00;
+}
+.button a {
+    color: black;
+    text-decoration: none;
+    user-select: none; /* убирать выделение текста */
+    /*background: #ffba00; /* фон кнопки */
+    /*padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    font-size: 1.6em;
+}
+.button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.button:active { background: rgb(152,15,0); } /* при нажатии */
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ffba00;
+}
+.footer {
+    background-color: #b2b2b2;
+    height: 150px;
+    border-style: solid;
+    border-color: #ffba00;
+    border-width: 2px;
+}
